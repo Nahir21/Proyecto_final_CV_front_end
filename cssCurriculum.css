@@ -1,0 +1,84 @@
+*{
+	box-sizing: border-box;  /*garantiza que el padding y el border esten incluidos en el totsl del ancho y alto de los elementos*/
+	font-family: serif;
+}
+
+body{
+	
+	border: solid lightpink;
+	height: 100%;
+	margin: 10px;
+	padding: 10px;
+}
+
+
+.secLike{
+	float: right;
+	
+}
+
+.foto{
+	height: 240px;
+	padding: 30px;
+	align-content: center;
+}
+.fotoPerfil {
+	display: block;
+  	margin: auto;
+  	padding: 60px;
+    transition: transform .2s;
+	height: 100px;
+    width: 100px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+ 
+.fotoPerfil:hover {
+    transform: scale(2);
+}
+
+
+.identidad{
+	padding: 20px;
+	border: double lightpink;
+	text-align: center;
+	
+}
+
+.contacto{
+	align-content:;
+}
+
+h1,h2{
+	text-decoration: underline;
+	display:cent;
+	margin: 0px 0px 0px 0px;
+}
+
+h1:hover{
+      font-size: 4em;
+      transition: all 0.5s;
+    }
+ .h4,.h5{
+ 	text-align:center;
+ }
+
+
+
+.h3{
+	background: linear-gradient(180deg, #df3267, #f8f9fa);
+	font-size: 3em;
+}
+
+
+@media only screen and (max-width:440px) {
+  
+  #btnLike {
+  	height: 50px;
+    width: 50px;
+    }
+  
+}
